@@ -60,6 +60,7 @@ typings/
 # react files
 .cache/
 dist
+build
 
 # Mac files
 .DS_Store

@@ -31,7 +31,6 @@ class NoteItem extends Component {
         className="note"
         // onMouseEnter={() => !isEditing && this.setState({ isFocus: !isFocus })}
         // onMouseLeave={() => !isEditing && this.setState({ isFocus: !isFocus })}
-        // onClick={() => this.setState({ isFocus: !isFocus })}
       >
         {isEditing ? (
           <input

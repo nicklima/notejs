@@ -9,7 +9,6 @@ class Menu extends Component {
   handleMenu = () => {
     const { isMenuOpen } = this.state;
     this.setState({ isMenuOpen: !isMenuOpen });
-    console.log(isMenuOpen);
   };
 
   render() {
@@ -32,7 +31,9 @@ class Menu extends Component {
                   <span></span>
                 </div>
               </button>
-              <h1>Note.js</h1>
+              <h1>
+                <span>Note.js</span>
+              </h1>
               {isLoading && (
                 <button
                   className={[
